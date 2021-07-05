@@ -6,6 +6,9 @@ h1{
     font-size: 50px;
     margin: 10px 0px;
 }
+p{
+    font-size: 18px;
+}
 .header-section{
     display: flex;
     background-image: url(images/shapes/);
@@ -98,4 +101,24 @@ h1{
 }
 .food-img img{
     width: 80%;
+}
+.folower-section{
+    margin-bottom: 100px;
+}
+.number-count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    box-shadow: 0 0 30px gray;
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 10px;
+    
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(235, 227, 227);
+    padding: 20px 10px;
 }
